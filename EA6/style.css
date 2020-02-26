@@ -1,0 +1,16 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: #FFFF5A;
+}
+h2 {
+	text-align: center;
+	color: #65FF5A;
+}
+article {
+	text-align: center;
+}

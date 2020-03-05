@@ -9,6 +9,7 @@
 }
 .menuses a {
   float: right;
+  margin-right: 10px;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -24,4 +25,20 @@
 .menuses a.activo {
   background-color: #4CAF50;
   color: white;
+}
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+main h1{
+  text-align: center;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 1px #73D;
+}
+main p {
+  font-size: 30px;
+  margin-left: 30px;
 }

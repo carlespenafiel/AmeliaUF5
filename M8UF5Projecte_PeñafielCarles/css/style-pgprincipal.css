@@ -2,6 +2,10 @@
   overflow: hidden;
   background-color: #333;
 }
+.menuses img {
+  display: inline;
+  width: 2%;
+}
 .menuses h1{
 	float: left;
 	color: #7be3e1;
@@ -28,17 +32,28 @@
 }
 main img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  float: right;
+  width: 30%;
 }
 main h1{
   text-align: center;
-  font-size: 100px;
+  font-size: 86px;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 2px 2px 1px #73D;
 }
 main p {
   font-size: 30px;
   margin-left: 30px;
+}
+main ul {
+  font-size: 30px;
+  margin-left: 30px;
+}
+aside iframe {
+  border:dotted 5px #c2c5ff;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 100%;
+  height: 600px;
 }

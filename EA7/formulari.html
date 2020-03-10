@@ -1,0 +1,78 @@
+<!--Tots els comentaris que trobes, et donen informació sobre què fer. 
+	Documenta, mitjançant un altre comentari els teus canvis i perquè els fas.
+	Omple els elements -les etiquetes- que no tinguin contingut.
+	Tabula on calgui. Recorda que una tabulació correcta ajuda a visualitzar el document -->
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Què fa aquesta etiqueta link, perquè serveix? Per a posar una imatge a la pestanya del buscador-->
+		<link rel= "shortcut icon" href="favicon.jpg">
+		<link rel="stylesheet" href="style.css">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title></title>
+    </head>
+    
+    <body>
+	  <!-- Substitueix totes les etiquetes div que trobis per etiquetes semàntiques de maquetació HTML5  
+		   o afegeix d'altres EXCEPTE ELS DIV DINS DEL FORM!!! -->
+	  <header><h1>Formulari Contacte</h1></header>
+	  <main>
+		  <!-- Explica els atributs de l'etiqueta form -->
+		  <form id="formulari" action="enviat.html" method="post">
+			<!-- Identifica el significat de l'etiqueta input i perquè serveixen cada atribut type. Trobes 4 almenys-->
+			<section>
+				<p>Introdueix el nom:</p><input type="text" size="30" />
+			</section>
+			<section>
+				<p>Contrasenya:</p><input type="password" size="30" />
+			</section>
+			
+			<section><p>La teva edat:</p>
+			  <!-- Afegeix opcions -->
+			  <select>
+				  <option>0-17</option>
+				  <option>18-30</option>
+				  <option>31-45</option>
+				  <option>+45</option>
+			  </select>
+			</section>
+			
+			<section><p>Quina és la teva província:</p>
+				  <select size="4" multiple>
+					  <option>Barcelona</option>
+					  <option>Tarragona</option>
+					  <option>Lleida</option>
+					  <option>Girona</option>
+				  </select>
+			</section>
+			
+			<section>
+				<p>Quina és la teva experiència amb la informàtica:</p>
+				<input type="radio" name="coneixements" value="ninguno"/>Sense experiència
+				<input type="radio" name="coneixements" value="ninguno"/>Poca experiència
+				<input type="radio" name="coneixements" value="ninguno"/>Alguna experiència
+				<input type="radio" name="coneixements" value="ninguno"/>Molta experiència
+			</section>
+			  
+			<section>
+				<p>Quina és la teva ocupació actualment:</p>
+				<input type="checkbox" name="equip" value="ninguno"/>Treballant
+				<input type="checkbox" name="equip" value="ninguno"/>Estudiant
+				<input type="checkbox" name="equip" value="ninguno"/>Jubilat
+				<input type="checkbox" name="equip" value="ninguno"/>Atur
+			</section>
+			
+			<section>
+				<p>Alguna observació?</p>
+				<textarea rows="8" cols="60"></textarea>
+			</section>
+			
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Esborrar">
+		
+		</form>
+		
+	  </main>
+	  <div><p>Formulari per a posar-nos en contacte amb vosaltres.</p></div>
+    </body>
+</html>

@@ -1,8 +1,9 @@
 body {
-	background-color: #000000;
-	color: #ffffff;
+	background-color: #0065a6;
+	color: #000000;
 	text-align: center;
 }
 h1 {
 	color: #0cff00;
+	font-family: 'Pacifico', cursive;
 }

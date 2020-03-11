@@ -1,6 +1,6 @@
 .menuses {
   overflow: hidden;
-  background-color: #333;
+  background-image: url(../media/bgbackground.png);
 }
 .menuses img {
   display: inline;

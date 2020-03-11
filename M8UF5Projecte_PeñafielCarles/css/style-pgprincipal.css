@@ -1,15 +1,17 @@
 .menuses {
-  overflow: hidden;
+  height: 85px;
   background-image: url(../media/bgbackground.png);
 }
 .menuses img {
   display: inline;
-  width: 2%;
+  width: 4%;
+  margin-left: 30%;
 }
 .menuses h1{
 	float: left;
-	color: #7be3e1;
+  color: white;
 	margin-left: 60px;
+  font-size: 40px;
 }
 .menuses a {
   float: right;

@@ -1,6 +1,6 @@
 .menuses {
   height: 85px;
-  background-image: url(../media/bgbackground.png);
+  background-image: url(../media/bgheader.png);
 }
 .menuses img {
   display: inline;
@@ -55,7 +55,7 @@ aside iframe {
   border:dotted 5px #c2c5ff;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 8px;
   width: 100%;
   height: 600px;
 }

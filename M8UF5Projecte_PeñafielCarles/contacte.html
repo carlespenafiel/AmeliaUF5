@@ -3,6 +3,60 @@
   <head>
     <title>AutismBCN</title>
     <meta charset="UTF-8">
-    <link rel="icon" href="media/bgfavicon.png" alt="lazo autista" sizes="16x16">
+    <link rel="icon" href="media/bgfavicon.png" sizes="16x16">
   </head>
+  <body>
+    <header class="menuses">
+      <h1 class="titoles" href="#autismbcn"><strong>AUTISMBCN</strong></h1>
+       <a class="activo" href="#inici">Inici</a>
+       <a href="#contacte">Contacte</a>
+       <a href="#informacio">Informació</a>
+       <a href="#quisoc">Qui sóc?</a>
+      <h1>Formulari de Contacte</h1>
+    </header>
+	  <main>
+		  <form id="formulari" action="enviat.html" method="post">
+			<section>
+				<p>Introdueix el teu correo electronic:</p><input type="text" size="30"/>
+			</section>
+			<section><p>La teva edat:</p>
+			  <select>
+				  <option>0-17</option>
+				  <option>18-30</option>
+				  <option>31-45</option>
+				  <option>+45</option>
+			  </select>
+			</section>
+			<section><p>Sobre quin grau has volgut trobar informació:</p>
+				  <select size="4" multiple>
+					  <option>Autisme</option>
+					  <option>Sindrome de Rett</option>
+					  <option>Sindrome de Asperger</option>
+					  <option>Trastorn desintegrat infantil o síndrome de Heller</option>
+            <option>Trastorn generalitzat de el desenvolupament no especificat</option>
+            <option>De tots en general</option>
+				  </select>
+			</section>
+			<section>
+				<p>Per que ens vols contactar?</p>
+				<input type="checkbox" name="equip" value="ninguno"/>Informació
+				<input type="checkbox" name="equip" value="ninguno"/>Mal funcionament de la pàgina
+				<input type="checkbox" name="equip" value="ninguno"/>Contactar amb mi personalment
+			</section>
+			<section>
+				<p>Quina es la vostra pregunta?</p>
+				<textarea rows="8" cols="60"></textarea>
+			</section>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Esborrar">
+		</form>
+	  </main>
+    <footer>
+      <p>Formulari per a posar-vos en contacte amb mi.</p>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0"
+        src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> <br />Este obra está bajo una <a rel="license"
+        href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional.
+      </a>
+	  </footer>
+  </body>
 </html>

@@ -1,0 +1,35 @@
+body{
+  text-align: center;/* Estem dient que tot el text dins del body estigui alineat al centre. */
+}
+
+div {
+  margin:5px 12px 4px 7px;/* Estem donant uns marges al text dins del div */
+  font-family:Purisa,Georgia;/* Estem aplicant un tipus de lletra */
+  font:bold;/* Diem que la lletra estigui en negreta */
+  font-size:110%;/* Li donem una grandaria a la lletra */
+  background-color:#13A6EF;/* Li donem el color del fons */
+  color:#0000FF;/* Li donem color al text */
+  text-align:center;/* Aquest no fa falta, ja esta posat al body */
+}
+
+h2{
+  font-family:Ubuntu;/* Tipus de lletra als titols h2 en general. */
+  font-size: 36px;/* grandaria de la lletra */
+  color: #49F392;/* Color de la lletra */
+  text-shadow: olive -3px -4px 5px;/* L'ombra de la lletra */
+}
+
+.contenidor{
+  font-size:70%;/* Dins del class contenido que la lletra tingui una grandaria */
+  color:red;/* Color de la lletra */
+}
+
+#peu_pag{
+  color:white;/* Color de la lletra */
+  margin-left:20px;/* Marge de l'esquerra */
+  margin-right:20px;/* Marge de la dreta */
+  margin-top:20px;/* Marge de a dalt */
+  margin-bottom:20px;/* Marge d'abaix */
+  background-color: #931389;/* Color de fons */
+  text-shadow: olive -3px -4px 5px;/* L'ombra de la lletra */
+}

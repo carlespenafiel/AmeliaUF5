@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style-contacte.css">
     <link rel="icon" href="media/bgfavicon.png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   </head>
   <body>
     <header class="menuses">
@@ -18,18 +19,21 @@
 	  <main>
       <h1>FORMULARI DE CONTACTE</h1>
 		  <form id="formulari" action="enviat.html" method="post">
-			<section>
-				<p>Introdueix el teu correo electronic:</p><input type="text" size="30"/>
-			</section>
-			<section><p>La teva edat:</p>
-			  <select>
-				  <option>0-17</option>
-				  <option>18-30</option>
-				  <option>31-45</option>
-				  <option>+45</option>
-			  </select>
-			</section>
-			<section><p>Sobre quin grau has volgut trobar informació:</p>
+  			<section>
+  				<a class="subt"><p>Introdueix el teu correu electrònic:</p></a>
+          <input type="text" size="30" placeholder="Correu electrònic..."/>
+  			</section>
+  			<section>
+          <a class="subt"><p>La teva edat:</p></a>
+  			  <select>
+  				  <option>0-17</option>
+  				  <option>18-30</option>
+  				  <option>31-45</option>
+  				  <option>+45</option>
+  			  </select>
+  			</section>
+  			<section>
+          <a class="subt"><p>Sobre quin grau has volgut trobar informació:</p></a>
 				  <select size="4" multiple>
 					  <option>Autisme</option>
 					  <option>Sindrome de Rett</option>
@@ -38,23 +42,21 @@
             <option>Trastorn generalitzat de el desenvolupament no especificat</option>
             <option>De tots en general</option>
 				  </select>
-			</section>
-			<section>
-				<p>Per que ens vols contactar?</p>
-				<input type="checkbox" name="equip" value="ninguno"/>Informació
-				<input type="checkbox" name="equip" value="ninguno"/>Mal funcionament de la pàgina
-				<input type="checkbox" name="equip" value="ninguno"/>Contactar amb mi personalment
-			</section>
-			<section>
-				<p>Quina es la vostra pregunta?</p>
-				<textarea rows="8" cols="60"></textarea>
-			</section>
-			<input type="submit" value="Enviar">
-			<input type="reset" value="Esborrar">
-		</form>
+  			</section>
+  			<section>
+  				<a class="subt"><p>Per que ens vols contactar?</p></a>
+  				<input type="checkbox" name="equip" value="ninguno"/>Informació
+  				<input type="checkbox" name="equip" value="ninguno"/>Mal funcionament de la pàgina
+  				<input type="checkbox" name="equip" value="ninguno"/>Contactar amb mi personalment
+  			</section>
+  			<section>
+  				<a class="subt"><p>Quina es la vostra pregunta?</p></a>
+  				<textarea rows="8" cols="60"></textarea>
+  			</section>
+  			<input type="submit" value="Enviar">
+		  </form>
 	  </main>
     <footer>
-      <p>Formulari per a posar-vos en contacte amb mi.</p>
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0"
         src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a> <br />Este obra está bajo una <a rel="license"
         href="http://creativecommons.org/licenses/by-nc-sa/4.0/">licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional.

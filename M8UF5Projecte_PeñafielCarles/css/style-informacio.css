@@ -33,7 +33,6 @@
   background-color: #4CAF50;
   color: white;
 }
-main{}
 main h1{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -41,6 +40,77 @@ main h1{
   font-size: 86px;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 2px 2px 1px #73D;
+}
+main p{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+table {
+	border-collapse: collapse;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+table, th, td {
+  border: 1px solid black;
+  font-size: 24px;
+  padding: 5px;
+}
+th {
+	background-color: #ccc;
+}
+td {
+	background-color: #eee;
+  text-align: center;
+}
+.all1{
+  width: 100%;
+  background-color: #ccc;
+  height: 400px;
+}
+.imgizquierda {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.imgizquierda img{
+  width: 80%;
+  height: 80%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.textderecha{
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+.textderecha p{
+  font-size: 25px;
+}
+.all2{
+  width: 100%;
+  background-color: #999;
+  height: 400px;
+}
+.imgderecha {
+  float: right;
+  width: 50%;
+  height: 100%;
+}
+.imgderecha img{
+  width: 80%;
+  height: 80%;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.textizquierda{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.textizquierda p{
+  font-size: 25px;
 }
 footer{
   text-align: center;

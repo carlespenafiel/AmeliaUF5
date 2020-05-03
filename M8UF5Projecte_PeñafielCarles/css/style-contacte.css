@@ -62,7 +62,7 @@ main select option{
 input[type=text], select {
   width: 90%;
   padding: 12px 20px;
-  margin-left: 8px 0;
+  margin-left: 8px;
   margin-right: 8px;
   display: inline-block;
   border: 1px solid #ccc;
